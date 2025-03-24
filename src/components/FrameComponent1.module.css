@@ -1,0 +1,114 @@
+.profileIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+.profileIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-9xs);
+}
+.mainIcon {
+  height: 18px;
+  width: 20px;
+  position: relative;
+}
+.mainIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-11xs);
+}
+.callIcon {
+  width: 43px;
+  height: 20px;
+  position: relative;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-40xl);
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0px 0px;
+}
+.name {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blankLine {
+  margin: 0;
+}
+.nameEmailContainer {
+  position: relative;
+  font-weight: 600;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-18xl) var(--padding-11xl);
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.profilePageInner {
+  align-self: stretch;
+  height: 347px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-122xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-instrument-sans);
+}
+
+@media screen and (max-width: 1200px) {
+  .profilePageInner {
+    padding-left: var(--padding-51xl);
+    padding-right: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .nameEmailContainer {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .profilePageInner {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nameEmailContainer {
+    font-size: var(--font-size-lgi);
+  }
+
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,202 @@
+.backToIcon {
+  height: 46px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+}
+.gigglesAi {
+  align-self: stretch;
+  position: relative;
+}
+.gigglesAiWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px 0px;
+}
+.backToParent {
+  width: 226px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.home {
+  position: relative;
+  font-weight: 500;
+  transform: rotate(-1.5deg);
+  cursor: pointer;
+}
+.about {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+}
+.price {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+  cursor: pointer;
+}
+.contact {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.menu {
+  width: 422.6px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.menuWrapper {
+  height: 35.7px;
+  width: 642px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.maleUserIcon {
+  height: 44px;
+  width: 43px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-snow-100);
+  font-family: var(--font-montserrat);
+}
+.aboutMe {
+  margin: 0;
+  width: 314px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.welcomeToGigglesai {
+  margin: 0;
+}
+.welcomeToGigglesaiContainer {
+  width: 1227px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+  max-width: 100%;
+}
+.welcomeToGigglesaiYourAiWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+}
+.aboutMeParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+  max-width: 100%;
+}
+.content {
+  width: 1296px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+.aboutPage2 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) 71px 187px 51px;
+  box-sizing: border-box;
+  gap: 182px;
+  background-image: url("/public/about-page-2@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1050px) {
+  .menu {
+    display: none;
+  }
+
+  .menuWrapper {
+    width: 219.4px;
+  }
+
+  .aboutMe {
+    font-size: var(--font-size-7xl);
+  }
+
+  .aboutPage2 {
+    gap: var(--gap-72xl);
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .aboutMeParent {
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutMe {
+    font-size: var(--font-size-lgi);
+  }
+
+  .welcomeToGigglesaiContainer {
+    font-size: var(--font-size-xl);
+  }
+
+  .aboutPage2 {
+    gap: var(--gap-26xl);
+  }
+}

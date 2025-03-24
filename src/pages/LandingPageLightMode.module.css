@@ -1,0 +1,132 @@
+.landingPageLightMode1Child {
+  width: 1440px;
+  height: 900px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.gigglesAi1 {
+  margin: 0;
+}
+.gigglesAi {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.gigglesContainer {
+  width: 172px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+}
+.home {
+  position: relative;
+  font-weight: 500;
+}
+.about {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+  cursor: pointer;
+}
+.contact {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.menu {
+  width: 422px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.navigation {
+  width: 483px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.mdiemailOpenOutlineIcon {
+  width: 24px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.materialSymbolslightModeIcon {
+  width: 26px;
+  position: relative;
+  max-height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10.3px;
+}
+.main {
+  width: 1319px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px var(--padding-xl) 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.landingPageLightMode1 {
+  width: 100%;
+  position: relative;
+  background-color: rgba(212, 203, 203, 0.74);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 45px 0px 302px 81px;
+  box-sizing: border-box;
+  gap: 247px;
+  background-image: url("/public/landing-page-light-mode-1@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1050px) {
+  .menu {
+    display: none;
+  }
+
+  .navigation {
+    width: 61px;
+  }
+
+  .landingPageLightMode1 {
+    gap: 123px;
+    padding-left: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .landingPageLightMode1 {
+    gap: var(--gap-43xl);
+  }
+}

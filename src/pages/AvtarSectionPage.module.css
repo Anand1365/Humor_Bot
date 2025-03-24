@@ -1,0 +1,257 @@
+.backToIcon {
+  height: 46px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+}
+.gigglesAi1 {
+  margin: 0;
+}
+.gigglesAi {
+  align-self: stretch;
+  position: relative;
+}
+.gigglesAiWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px 0px;
+}
+.backToParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.frameWrapper {
+  width: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-5xs);
+  box-sizing: border-box;
+}
+.maleUserIcon {
+  height: 44px;
+  width: 43px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-snow-100);
+  font-family: var(--font-montserrat);
+}
+.chooseAnAvatar {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.imagePlaceholderIcon {
+  width: 125px;
+  height: 125px;
+  position: relative;
+  border-radius: var(--br-493xl);
+  object-fit: cover;
+  cursor: pointer;
+}
+.friend1 {
+  color: var(--color-black);
+}
+.span {
+  color: var(--color-white);
+}
+.friend {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-jetbrains-mono);
+  text-align: left;
+}
+.avatarDescription {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-10xs) var(--padding-18xl) var(--padding-10xs) 38px;
+  background-color: var(--color-limegreen-100);
+  border-radius: var(--br-mini);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatarDescription:hover {
+  background-color: var(--color-limegreen-200);
+}
+.avatarImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.rectangleIcon {
+  height: 125px;
+  width: 125px;
+  position: relative;
+  border-radius: var(--br-313xl);
+  object-fit: cover;
+  cursor: pointer;
+}
+.rectangleWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-5xs) 0px var(--padding-sm);
+}
+.educator {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-jetbrains-mono);
+  color: var(--color-black);
+  text-align: left;
+}
+.educatorWrapper {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-10xs) var(--padding-6xl) var(--padding-10xs) 26px;
+  background-color: var(--color-limegreen-100);
+  border-radius: var(--br-mini);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.educatorWrapper:hover {
+  background-color: var(--color-limegreen-200);
+}
+.avatarImage1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.avatarCard {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.avatarGrid {
+  width: 479px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.chooseAnAvatarToTalkWithParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 124px;
+  max-width: 100%;
+}
+.avtarSectionPageInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 69px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.avtarSectionPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) var(--padding-25xl) 253px var(--padding-61xl);
+  box-sizing: border-box;
+  gap: 184px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-jetbrains-mono);
+}
+
+@media screen and (max-width: 1050px) {
+  .chooseAnAvatar {
+    font-size: var(--font-size-13xl);
+  }
+
+  .chooseAnAvatarToTalkWithParent {
+    gap: var(--gap-43xl);
+  }
+
+  .avtarSectionPageInner {
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+
+  .avtarSectionPage {
+    gap: 92px;
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .avatarCard {
+    flex-wrap: wrap;
+  }
+
+  .avatarGrid {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .chooseAnAvatar {
+    font-size: var(--font-size-5xl);
+  }
+
+  .educator {
+    font-size: var(--font-size-base);
+  }
+
+  .chooseAnAvatarToTalkWithParent {
+    gap: var(--gap-12xl);
+  }
+
+  .avtarSectionPage {
+    gap: 46px;
+  }
+}
