@@ -1,0 +1,56 @@
+.backToIcon {
+  height: 46px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+}
+.gigglesAi1 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.gigglesAi {
+  align-self: stretch;
+  position: relative;
+}
+.gigglesAiWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12.3px 0px 0px;
+}
+.backToParent {
+  width: 198px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profileWithAddon {
+  width: 135px;
+  height: 104px;
+  position: relative;
+  display: none;
+}
+.profilePage {
+  width: 100%;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #2b2929;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 29px 46px 251px;
+  gap: 223px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 24px;
+  color: #fffafa;
+  font-family: Montserrat;
+}

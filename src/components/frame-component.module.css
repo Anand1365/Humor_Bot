@@ -1,0 +1,148 @@
+.exploreCreativityOf {
+  margin: 0;
+}
+.exploreCreativityOfContainer {
+  margin: 0;
+  position: relative;
+  font-size: 46px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: left;
+  display: inline-block;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+  max-width: 100%;
+  z-index: 1;
+}
+.giggleAiHumoreContainer {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.giggleAiHumoreContainer1 {
+  align-self: stretch;
+  position: relative;
+  color: #000;
+  z-index: 1;
+  margin-top: -43px;
+}
+.giggleAiHumoreBhaiIsAWParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cta1 {
+  position: absolute;
+  top: calc(50% - 30.5px);
+  left: 0px;
+  border-radius: 40px;
+  background-color: rgba(13, 13, 13, 0.8);
+  width: 180px;
+  height: 57px;
+}
+.letsStart {
+  position: absolute;
+  top: calc(50% - 13.5px);
+  left: 32px;
+  display: inline-block;
+  text-shadow: 0px 0px 25px rgba(168, 255, 53, 0.25);
+  min-height: 44px;
+  z-index: 1;
+}
+.cta {
+  height: 61px;
+  width: 180px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.phflowArrowDuotoneIcon {
+  width: 69.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: -15px;
+  left: -69px;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.span {
+  font-size: 18px;
+}
+.clickMeHurryContainer {
+  position: relative;
+  z-index: 1;
+}
+.phflowArrowDuotoneParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameContainer {
+  width: 134px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0px 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #fff;
+  font-family: "MS Gothic";
+}
+.ctaParent {
+  width: 383px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 20px 0px 304px;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: #faf3f3;
+}
+.exploreCreativityOfAChatboParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 31px;
+  max-width: 100%;
+}
+.landingPageDarkMode1Inner {
+  width: 1279px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 49px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #f9f3f3;
+  font-family: Montserrat;
+}
+
+@media screen and (max-width: 1200px) {
+  .landingPageDarkMode1Inner {
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,163 @@
+.backToIcon {
+  height: 46px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+}
+.gigglesAi {
+  align-self: stretch;
+  position: relative;
+}
+.gigglesAiWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0px 0px;
+}
+.backToParent {
+  width: 226px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.home {
+  position: relative;
+  font-weight: 500;
+  transform: rotate(-1.5deg);
+  cursor: pointer;
+}
+.about {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+}
+.price {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+  cursor: pointer;
+}
+.contact {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.menu {
+  width: 422.6px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 1px 0px 0px;
+  box-sizing: border-box;
+  gap: 20px;
+  max-width: 100%;
+}
+.menuWrapper {
+  height: 35.7px;
+  width: 642px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 20px;
+}
+.maleUserIcon {
+  height: 44px;
+  width: 43px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #fffafa;
+  font-family: Montserrat;
+}
+.aboutMe {
+  margin: 0;
+  width: 314px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.welcomeToGigglesai {
+  margin: 0;
+}
+.welcomeToGigglesaiContainer {
+  width: 1227px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+  max-width: 100%;
+}
+.welcomeToGigglesaiYourAiWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  text-align: left;
+  font-size: 25px;
+}
+.aboutMeParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+  max-width: 100%;
+}
+.content {
+  width: 1296px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 8px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  font-family: Montserrat;
+}
+.aboutPage2 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 28px 71px 187px 51px;
+  box-sizing: border-box;
+  gap: 182px;
+  background-image: url("/public/about-page-2@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+}

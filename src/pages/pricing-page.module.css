@@ -1,0 +1,131 @@
+.backToIcon {
+  height: 46px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+}
+.gigglesAi1 {
+  margin: 0;
+}
+.gigglesAi {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.gigglesAiWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0px 0px;
+}
+.backToParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.frameWrapper {
+  width: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 0px 0px;
+  box-sizing: border-box;
+}
+.maleUserIcon {
+  height: 44px;
+  width: 43px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #fffafa;
+  font-family: Montserrat;
+}
+.pricing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.pricingWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 508px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 40px;
+  color: #fff;
+  font-family: Montserrat;
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 61px 0px 66px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pricingPage3 {
+  width: 100%;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #2b2929;
+  border: 1px solid #fcf1f1;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 43px 59px 108px 49px;
+  gap: 22px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+  .pricingWrapper {
+    padding-left: 254px;
+    padding-right: 254px;
+    box-sizing: border-box;
+  }
+
+  .content {
+    padding-left: 33px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+}

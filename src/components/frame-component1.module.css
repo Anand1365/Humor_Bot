@@ -1,0 +1,93 @@
+.profileIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+.profileIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 4px;
+}
+.mainIcon {
+  height: 18px;
+  width: 20px;
+  position: relative;
+}
+.mainIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 2px;
+}
+.callIcon {
+  width: 43px;
+  height: 20px;
+  position: relative;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 59px;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13px 0px 0px;
+}
+.name {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blankLine {
+  margin: 0;
+}
+.nameEmailContainer {
+  position: relative;
+  font-weight: 600;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 30px;
+  background-color: #fff;
+  border: 1px solid #fffdfd;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 37px 30px;
+  gap: 16px;
+  max-width: 100%;
+}
+.profilePageInner {
+  align-self: stretch;
+  height: 347px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 141px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 32px;
+  color: #000;
+  font-family: "Instrument Sans";
+}
+
+@media screen and (max-width: 1200px) {
+  .profilePageInner {
+    padding-left: 70px;
+    padding-right: 70px;
+    box-sizing: border-box;
+  }
+}

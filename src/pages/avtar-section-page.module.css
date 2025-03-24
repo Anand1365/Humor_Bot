@@ -1,0 +1,206 @@
+.backToIcon {
+  height: 46px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+}
+.gigglesAi1 {
+  margin: 0;
+}
+.gigglesAi {
+  align-self: stretch;
+  position: relative;
+}
+.gigglesAiWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0px 0px;
+}
+.backToParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.frameWrapper {
+  width: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px 8px;
+  box-sizing: border-box;
+}
+.maleUserIcon {
+  height: 44px;
+  width: 43px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #fffafa;
+  font-family: Montserrat;
+}
+.chooseAnAvatar {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.imagePlaceholderIcon {
+  width: 125px;
+  height: 125px;
+  position: relative;
+  border-radius: 512px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.friend1 {
+  color: #000;
+}
+.span {
+  color: #fff;
+}
+.friend {
+  position: relative;
+  font-size: 20px;
+  font-family: "JetBrains Mono";
+  text-align: left;
+}
+.avatarDescription {
+  cursor: pointer;
+  border: none;
+  padding: 3px 37px 3px 38px;
+  background-color: #36cc31;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatarDescription:hover {
+  background-color: #1cb317;
+}
+.avatarImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.rectangleIcon {
+  height: 125px;
+  width: 125px;
+  position: relative;
+  border-radius: 332px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.rectangleWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 8px 0px 14px;
+}
+.educator {
+  position: relative;
+  font-size: 20px;
+  font-family: "JetBrains Mono";
+  color: #000;
+  text-align: left;
+}
+.educatorWrapper {
+  cursor: pointer;
+  border: none;
+  padding: 3px 25px 3px 26px;
+  background-color: #36cc31;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.educatorWrapper:hover {
+  background-color: #1cb317;
+}
+.avatarImage1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.avatarCard {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.avatarGrid {
+  width: 479px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.chooseAnAvatarToTalkWithParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 124px;
+  max-width: 100%;
+}
+.avtarSectionPageInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 69px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.avtarSectionPage {
+  width: 100%;
+  position: relative;
+  background-color: #2b2929;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 35px 44px 253px 80px;
+  box-sizing: border-box;
+  gap: 184px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 40px;
+  color: #fff;
+  font-family: "JetBrains Mono";
+}
