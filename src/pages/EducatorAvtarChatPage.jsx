@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback,useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./EducatorAvtarChatPage.module.css";
 
@@ -6,6 +6,9 @@ const EducatorAvtarChatPage = () => {
   const navigate = useNavigate();
 
   const onMaleUserIconClick = useCallback(() => {
+    navigate("/profile-page");
+  }, [navigate]);
+    const onBackToIconClick = useCallback(() => {
     navigate("/profile-page");
   }, [navigate]);
 
@@ -18,6 +21,7 @@ const EducatorAvtarChatPage = () => {
             loading="lazy"
             alt=""
             src="/back-to@2x.png"
+            onClick={() => navigate(-1)}
           />
           <div className={styles.titleContainer}>
             <h3 className={styles.gigglesAi}>

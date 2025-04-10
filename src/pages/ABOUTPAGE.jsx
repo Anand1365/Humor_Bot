@@ -3,6 +3,10 @@ import { useNavigate } from "react-router-dom";
 import styles from "./ABOUTPAGE.module.css";
 
 const ABOUTPAGE = () => {
+  const onBackToIconClick = useCallback(() => {
+    navigate(-1);
+  }, [navigate]);
+
   const navigate = useNavigate();
 
   const onHOMETextClick = useCallback(() => {
@@ -30,6 +34,7 @@ const ABOUTPAGE = () => {
             loading="lazy"
             alt=""
             src="/back-to@2x.png"
+            onClick={onBackToIconClick}
           />
           <div className={styles.gigglesAiWrapper}>
             <b className={styles.gigglesAi}>

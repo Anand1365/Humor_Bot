@@ -9,6 +9,10 @@ const ContactPage = () => {
     navigate("/profile-page");
   }, [navigate]);
 
+  const onBackToIconClick = useCallback(() => {
+    navigate(-1);
+  }, [navigate]);
+
   return (
     <div className={styles.contactPage}>
       <header className={styles.frameParent}>
@@ -18,6 +22,7 @@ const ContactPage = () => {
             loading="lazy"
             alt=""
             src="/back-to@2x.png"
+            onClick={onBackToIconClick}
           />
           <div className={styles.gigglesAiWrapper}>
             <b className={styles.gigglesAi}>

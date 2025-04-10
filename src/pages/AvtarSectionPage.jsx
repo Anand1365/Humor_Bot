@@ -2,6 +2,7 @@ import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./AvtarSectionPage.module.css";
 
+
 const AvtarSectionPage = () => {
   const navigate = useNavigate();
 
@@ -13,13 +14,18 @@ const AvtarSectionPage = () => {
     navigate("/friend-avtar-chat-page");
   }, [navigate]);
 
+  const onBackToIconClick = useCallback(() => {
+    navigate(-1);
+  }, [navigate]);
+
   const onRectangleImageClick = useCallback(() => {
     navigate("/educator-avtar-chat-page");
   }, [navigate]);
-
   return (
     <div className={styles.avtarSectionPage}>
       <header className={styles.frameParent}>
+
+
         <div className={styles.frameWrapper}>
           <div className={styles.backToParent}>
             <img
@@ -27,6 +33,7 @@ const AvtarSectionPage = () => {
               loading="lazy"
               alt=""
               src="/back-to@2x.png"
+              onClick={onBackToIconClick}
             />
             <div className={styles.gigglesAiWrapper}>
               <b className={styles.gigglesAi}>

@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback, React } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./FriendAvtarChatPage.module.css";
 
@@ -7,6 +7,10 @@ const FriendAvtarChatPage = () => {
 
   const onMaleUserIconClick = useCallback(() => {
     navigate("/profile-page");
+  }, [navigate]);
+
+  const onBackToIconClick = useCallback(() => {
+    navigate(-1);
   }, [navigate]);
 
   return (
@@ -18,6 +22,7 @@ const FriendAvtarChatPage = () => {
             loading="lazy"
             alt=""
             src="/back-to@2x.png"
+            onClick={onBackToIconClick}
           />
           <div className={styles.gigglesAiWrapper}>
             <h3 className={styles.gigglesAi}>

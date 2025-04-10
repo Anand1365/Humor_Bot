@@ -7,6 +7,7 @@
 body {
   margin: 0;
   line-height: normal;
+  max-width: 100%;
 }
 :root {
   /* Fonts */
@@ -144,4 +145,47 @@ body {
   --br-35xl: 54px;
   --br-313xl: 332px;
   --br-493xl: 512px;
+}
+
+/* Media Queries for Responsive Design */
+/* Small screens (mobile phones) */
+@media (max-width: 576px) {
+  body {
+    font-size: 14px;
+    
+  }
+
+  /* Example adjustments - adjust as needed */
+  .header {
+    padding: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+  body {
+    font-size: 15px;
+  }
+
+  /* Example adjustments - adjust as needed */
+  .header {
+    padding: 15px;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 993px) {
+  body {
+    font-size: 16px; /* Default font size for desktops */
+  }
+
+  /* Example adjustments - adjust as needed */
+  .header {
+    padding: 20px;
+  }
+}
 }

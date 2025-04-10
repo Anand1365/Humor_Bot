@@ -6,6 +6,10 @@ import styles from "./PricingPage.module.css";
 const PricingPage = () => {
   const navigate = useNavigate();
 
+  const onBackToIconClick = useCallback(() => {
+    navigate(-1);
+  }, [navigate]);
+
   const onMaleUserIconClick = useCallback(() => {
     navigate("/profile-page");
   }, [navigate]);
@@ -18,6 +22,7 @@ const PricingPage = () => {
             <img
               className={styles.backToIcon}
               loading="lazy"
+              onClick={onBackToIconClick}
               alt=""
               src="/back-to@2x.png"
             />
